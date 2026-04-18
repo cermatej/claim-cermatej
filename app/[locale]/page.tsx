@@ -5,6 +5,7 @@ import HowItWorks from "@/components/HowItWorks";
 import YourRights from "@/components/YourRights";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
+import EasterEgg from "@/components/EasterEgg";
 
 type Props = { params: Promise<{ locale: string }> };
 
@@ -20,6 +21,7 @@ export default async function HomePage({ params }: Props) {
       <YourRights />
       <FAQ />
       <Footer />
+      <EasterEgg />
     </main>
   );
 }
