@@ -46,43 +46,28 @@ const COMPANIES: Company[] = [
   },
 ];
 
-const KONAMI = [
-  "ArrowUp",
-  "ArrowUp",
-  "ArrowDown",
-  "ArrowDown",
-  "ArrowLeft",
-  "ArrowRight",
-  "ArrowLeft",
-  "ArrowRight",
-  "b",
-  "a",
-];
-
 export default function EasterEgg() {
   const [open, setOpen] = useState(false);
   const [tab, setTab] = useState<Company["key"]>("google");
 
   useEffect(() => {
-    let buffer: string[] = [];
-    const onKey = (e: KeyboardEvent) => {
-      if (e.key === "Escape") {
-        setOpen(false);
-        return;
-      }
-      const key = e.key.length === 1 ? e.key.toLowerCase() : e.key;
-      buffer.push(key);
-      if (buffer.length > KONAMI.length) buffer = buffer.slice(-KONAMI.length);
-      if (
-        buffer.length === KONAMI.length &&
-        buffer.every((k, i) => k === KONAMI[i])
-      ) {
+    const onClick = (e: MouseEvent) => {
+      const target = e.target as HTMLElement | null;
+      const trigger = target?.closest("[data-claim-trigger]");
+      if (trigger) {
+        e.preventDefault();
         setOpen(true);
-        buffer = [];
       }
     };
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setOpen(false);
+    };
+    document.addEventListener("click", onClick);
     window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
+    return () => {
+      document.removeEventListener("click", onClick);
+      window.removeEventListener("keydown", onKey);
+    };
   }, []);
 
   useEffect(() => {
@@ -114,7 +99,7 @@ export default function EasterEgg() {
         <div className="flex items-center justify-between border-b border-slate-100 px-6 py-4">
           <div className="flex items-center gap-2">
             <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-amber-100 text-sm">
-              🥚
+              ✉️
             </span>
             <p
               id="easter-title"
@@ -209,7 +194,7 @@ export default function EasterEgg() {
           </article>
 
           <p className="mt-4 text-center text-xs text-slate-400">
-            You found the easter egg. Press{" "}
+            Press{" "}
             <kbd className="rounded border border-slate-200 bg-white px-1.5 py-0.5 font-mono text-[10px]">
               Esc
             </kbd>{" "}

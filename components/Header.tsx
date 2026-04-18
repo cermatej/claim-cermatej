@@ -42,7 +42,11 @@ export default function Header() {
 
         <div className="flex items-center gap-3">
           <LanguageSwitcher />
-          <a href="#claim" className="btn-primary hidden sm:inline-flex">
+          <a
+            href="#claim"
+            data-claim-trigger
+            className="btn-primary hidden sm:inline-flex"
+          >
             {t("cta")}
           </a>
         </div>
