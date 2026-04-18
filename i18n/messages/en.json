@@ -1,0 +1,115 @@
+{
+  "nav": {
+    "howItWorks": "How it works",
+    "rights": "Your rights",
+    "faq": "FAQ",
+    "cta": "Claim now"
+  },
+  "hero": {
+    "eyebrow": "EU Regulation 261/2004",
+    "title": "Get up to <accent>€600</accent> for a delayed flight",
+    "subtitle": "Enter your flight and instantly see the compensation you may be entitled to under European law.",
+    "trust": "Instant estimate • No sign-up • Free"
+  },
+  "form": {
+    "from": "Departure",
+    "to": "Arrival",
+    "delay": "Delay (hours)",
+    "delayHours": "{hours, plural, one {# hour} other {# hours}}",
+    "fromPlaceholder": "e.g. Prague (PRG)",
+    "toPlaceholder": "e.g. London (LHR)",
+    "swap": "Swap",
+    "noAirport": "No airport found",
+    "distance": "Distance: {km} km"
+  },
+  "compensation": {
+    "title": "Your estimated claim",
+    "upTo": "up to",
+    "perPassenger": "per passenger",
+    "eligible": "You may be entitled to compensation",
+    "notEligible": "Sorry, we can't confirm eligibility",
+    "cta": "Start a claim",
+    "reason": {
+      "delayTooShort": "Under EU 261, compensation starts at a delay of 3 hours or more.",
+      "short": "Flight up to 1,500 km — a flat €250 per passenger.",
+      "medium": "Flight 1,500–3,500 km (or any intra-EU flight above 1,500 km) — €400 per passenger.",
+      "longReduced": "Non-EU flight over 3,500 km with a 3–4 hour delay — reduced €300 (Art. 7(2)).",
+      "long": "Non-EU flight over 3,500 km with a delay of 4+ hours — €600 per passenger.",
+      "missing": "Pick a departure airport, an arrival airport, and enter the delay."
+    }
+  },
+  "howItWorks": {
+    "title": "How it works",
+    "subtitle": "Three steps to your compensation.",
+    "steps": {
+      "check": {
+        "title": "1. Check eligibility",
+        "text": "Enter your flight and see within seconds how many euros you are owed."
+      },
+      "submit": {
+        "title": "2. Submit the claim",
+        "text": "Fill in a short form. We handle the rest of the communication with the airline."
+      },
+      "getPaid": {
+        "title": "3. Get paid",
+        "text": "Once the airline pays out, you receive the compensation on your account."
+      }
+    }
+  },
+  "rights": {
+    "title": "Your rights under EU 261",
+    "subtitle": "Regardless of the ticket price.",
+    "tiers": {
+      "short": {
+        "amount": "€250",
+        "range": "up to 1,500 km",
+        "desc": "Short flights delayed by 3 hours or more."
+      },
+      "medium": {
+        "amount": "€400",
+        "range": "1,500 – 3,500 km",
+        "desc": "Medium flights, and all intra-EU flights above 1,500 km."
+      },
+      "long": {
+        "amount": "€600",
+        "range": "over 3,500 km",
+        "desc": "Long-haul non-EU flights delayed over 4 hours."
+      }
+    }
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "q": "How far back can I claim?",
+        "a": "In the Czech Republic you can typically claim EU 261 compensation for flights up to three years in the past; in some countries even longer."
+      },
+      {
+        "q": "What if the airline blames the delay on something else?",
+        "a": "The airline must prove 'extraordinary circumstances' (severe weather, a third-party strike, a security risk). Technical faults and ordinary operational issues don't qualify."
+      },
+      {
+        "q": "How much do you charge?",
+        "a": "The calculator is free. If you use our claim service, we take a share only from the amount we successfully recover."
+      },
+      {
+        "q": "Does this apply to low-cost carriers?",
+        "a": "Yes. EU 261 covers all airlines departing from the EU and all EU carriers flying into the EU. The ticket price doesn't matter."
+      },
+      {
+        "q": "What about cancellations or reroutings?",
+        "a": "The rules are similar. If the airline informed you late or didn't offer a reasonable alternative, you may be entitled to compensation. Contact us and we'll review your case."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "The fast way to compensation for delayed flights.",
+    "disclaimer": "Amounts shown are an estimate based on EU Regulation 261/2004. The final claim depends on the specific circumstances of the flight.",
+    "rights": "All rights reserved."
+  },
+  "language": {
+    "label": "Language",
+    "cs": "Čeština",
+    "en": "English"
+  }
+}

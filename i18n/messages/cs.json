@@ -1,0 +1,115 @@
+{
+  "nav": {
+    "howItWorks": "Jak to funguje",
+    "rights": "Vaše práva",
+    "faq": "Časté otázky",
+    "cta": "Získat náhradu"
+  },
+  "hero": {
+    "eyebrow": "Nařízení EU 261/2004",
+    "title": "Získejte až <accent>600 €</accent> za zpožděný let",
+    "subtitle": "Zadejte svůj let a okamžitě zjistěte, na jakou náhradu máte podle evropského práva nárok.",
+    "trust": "Rychlý odhad • Bez registrace • Zdarma"
+  },
+  "form": {
+    "from": "Odlet",
+    "to": "Přílet",
+    "delay": "Zpoždění (hodiny)",
+    "delayHours": "{hours, plural, one {# hodina} few {# hodiny} other {# hodin}}",
+    "fromPlaceholder": "Např. Praha (PRG)",
+    "toPlaceholder": "Např. Londýn (LHR)",
+    "swap": "Prohodit",
+    "noAirport": "Žádné letiště nenalezeno",
+    "distance": "Vzdálenost: {km} km"
+  },
+  "compensation": {
+    "title": "Váš odhadovaný nárok",
+    "upTo": "až",
+    "perPassenger": "na cestujícího",
+    "eligible": "Máte nárok na náhradu",
+    "notEligible": "Bohužel, nárok nelze potvrdit",
+    "cta": "Zahájit nárok",
+    "reason": {
+      "delayTooShort": "Podle EU 261 vzniká nárok na náhradu až při zpoždění 3 hodiny a více.",
+      "short": "Let do 1 500 km — paušální náhrada 250 € na cestujícího.",
+      "medium": "Let 1 500–3 500 km (nebo let v rámci EU nad 1 500 km) — náhrada 400 € na cestujícího.",
+      "longReduced": "Let nad 3 500 km mimo EU se zpožděním 3–4 hodiny — snížená náhrada 300 €.",
+      "long": "Let nad 3 500 km mimo EU se zpožděním 4 hodiny a více — náhrada 600 € na cestujícího.",
+      "missing": "Vyberte odletové a cílové letiště a zadejte zpoždění."
+    }
+  },
+  "howItWorks": {
+    "title": "Jak to funguje",
+    "subtitle": "Tři kroky k vaší náhradě.",
+    "steps": {
+      "check": {
+        "title": "1. Ověřte nárok",
+        "text": "Zadejte svůj let a během pár vteřin uvidíte, na kolik eur máte nárok."
+      },
+      "submit": {
+        "title": "2. Podejte žádost",
+        "text": "Vyplňte krátký formulář. O zbytek komunikace s aerolinkou se postaráme my."
+      },
+      "getPaid": {
+        "title": "3. Získejte peníze",
+        "text": "Po úspěšném vyřízení dostanete náhradu převodem na váš účet."
+      }
+    }
+  },
+  "rights": {
+    "title": "Vaše práva podle EU 261",
+    "subtitle": "Bez ohledu na cenu letenky.",
+    "tiers": {
+      "short": {
+        "amount": "250 €",
+        "range": "do 1 500 km",
+        "desc": "Krátké lety se zpožděním 3 hodiny a více."
+      },
+      "medium": {
+        "amount": "400 €",
+        "range": "1 500 – 3 500 km",
+        "desc": "Střední lety a všechny lety v EU nad 1 500 km."
+      },
+      "long": {
+        "amount": "600 €",
+        "range": "nad 3 500 km",
+        "desc": "Dálkové lety mimo EU se zpožděním nad 4 hodiny."
+      }
+    }
+  },
+  "faq": {
+    "title": "Časté otázky",
+    "items": [
+      {
+        "q": "Jak dlouho zpátky mohu nárok uplatnit?",
+        "a": "V Česku lze nárok na náhradu podle EU 261 uplatnit zpětně zpravidla za poslední tři roky, v některých státech i déle."
+      },
+      {
+        "q": "Co když aerolinka tvrdí, že za zpoždění nemůže?",
+        "a": "Aerolinka je povinna prokázat tzv. mimořádné okolnosti (bouřka, stávka mimo aerolinku, bezpečnostní hrozba). Technické závady a běžné provozní problémy to nejsou."
+      },
+      {
+        "q": "Kolik si účtujete za vyřízení?",
+        "a": "Tento kalkulátor je zdarma. Pokud se rozhodnete využít naši asistenci s vymáháním, účtujeme si podíl pouze z úspěšně vymožené částky."
+      },
+      {
+        "q": "Platí to i pro nízkonákladové lety?",
+        "a": "Ano. EU 261 se vztahuje na všechny aerolinky odlétající z EU a na lety do EU provozované evropskými dopravci. Cena letenky nehraje roli."
+      },
+      {
+        "q": "Co zrušené nebo přesměrované lety?",
+        "a": "Pravidla se v zásadě podobají. Pokud vám dopravce nenabídl alternativu nebo informaci pozdě, máte nárok. Napište nám a posoudíme váš případ."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Rychlá cesta k náhradě za zpožděný let.",
+    "disclaimer": "Uvedené částky jsou odhad podle Nařízení EU 261/2004. Konečný nárok závisí na konkrétních okolnostech letu.",
+    "rights": "Všechna práva vyhrazena."
+  },
+  "language": {
+    "label": "Jazyk",
+    "cs": "Čeština",
+    "en": "English"
+  }
+}
